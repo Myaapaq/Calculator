@@ -10,10 +10,31 @@ function multiply (array) {
 function divide( x, y) {
     return x / y 
 }
-//add the current total to any other number
+//add the current total to any other yer
 function sum (array) {
     return array.reduce((current, brandNew)=> current + brandNew, 0 );
 } 
+//test doc stuff
+function add (x, y) {
+	return x + y;
+}
+function subtract (x, y) {	 
+	return x - y ; 
+}
+function multiply (array) {
+	return array.reduce((current, next) => current * next);
+}
+function divide( x, y) {
+	return x / y 
+}
+//add the current total to any other yer
+function sum (array) {
+	return array.reduce((current, brandNew)=> current + brandNew, 0 );
+} 
+function operator(operator, x, y){
+	
+}
+
 
 
 
