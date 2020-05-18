@@ -34,13 +34,8 @@ alternate multiply function
 function multiply (array) {
 	return array.reduce((current, next) => current * next);
 }
-*/
 
-
-
-
-
-/* Extra functions
+---> Extra functions
 function power(a, b) {
 	return Math.pow(a,b)
 }
@@ -54,5 +49,4 @@ function factorial(n) {
     }
 }
 	return product;
-
 */
