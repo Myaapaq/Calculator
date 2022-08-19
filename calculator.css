@@ -1,8 +1,14 @@
+*{
+    border: 2px solid;
+    background-color: azure;
+    border-radius: 6px;
+}
 #calc{
     width: 325px;
     height:600px;
-    background-color: aquamarine;
-    padding: 10px
+    background-color: rgba(76, 212, 76, 0.623);
+    padding: 10px;
+    margin: 10px; 
 }
 #display{
     background-color: white;
@@ -24,16 +30,19 @@
 .nums{
     width: 70px;
     height: 70px;
-    margin: 7px;
+    margin: 7px; 
+}
+.nums:hover{
+    background-color: aqua;
+}
+.nums, actions{
     border: 2px solid azure;
     background-color: azure;
+    border-radius: 6px;
 }
-    
-.operators,.actions{
+.operators, .actions{
     width: 45px;
     height: 45px;
-    margin: 15px;
-    border: 2px solid azure;
-    background-color: azure;
+    margin: 15px; 
 }
 
